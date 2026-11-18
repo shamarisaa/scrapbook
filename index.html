@@ -1,0 +1,689 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#6b1832">
+  <title>Our Little Memories ♡</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="floating-hearts" aria-hidden="true">
+    <span>♡</span>
+    <span>✦</span>
+    <span>♡</span>
+    <span>✧</span>
+    <span>♡</span>
+  </div>
+
+  <!-- NAVIGASI -->
+  <header class="topbar">
+    <a class="brand" href="#home">♡ our little memories</a>
+
+    <nav>
+      <a href="#memories">memori</a>
+      <a href="#timeline">our kisah</a>
+      <a href="#letter">love letter</a>
+    </nav>
+
+    <button id="musicToggle" class="music-btn" aria-label="Putar atau jeda musik">
+      <span class="music-icon">♫</span>
+      <span id="musicLabel">Putar musik</span>
+    </button>
+  </header>
+
+  <main>
+
+    <!-- HALAMAN PEMBUKA -->
+    <section class="hero" id="home">
+
+      <div class="hero-copy">
+        <p class="eyebrow">Album kenangan kitaa</p>
+
+        <h1>
+          Our Little<br>
+          <em>Memories</em>
+        </h1>
+
+        <p class="hero-desc">
+          ♡♡ Anggit dan Riska ♡♡ <br>
+          atau <br>
+          ♡♡ Amri dan Risha ♡♡
+        </p>
+
+        <a class="primary-btn" href="#memories">
+          Buka album  <span>↓</span>
+        </a>
+
+        <div class="hero-signature">
+          terbuat dari momen, disimpan selamanya ♡
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="paper-note">
+          you + me<br>
+          <span>always</span> ♡
+        </div>
+
+        <div class="hero-polaroid">
+
+          <div class="photo-placeholder hero-photo" data-photo="hero">
+            <span class="photo-hint">Foto favorit kalian</span>
+            <img src="assets/foto2.jpeg" alt="Foto utama kalian">
+          </div>
+
+          <p>
+            my love<br>
+            
+          </p>
+        </div>
+
+        <span class="sticker sticker-heart">♡</span>
+        <span class="sticker sticker-star">✦</span>
+        <span class="tape"></span>
+      </div>
+
+    </section>
+
+
+    <!-- INTRO -->
+    <section class="intro section-wrap">
+
+      <span class="section-kicker">
+        hal sederhana, rasa yang istimewa
+      </span>
+
+      <h2>
+        Ada momen yang ingin<br>
+        selalu <em>disimpan dekat.</em>
+      </h2>
+
+      <p>
+        Tidak semua kenangan harus berasal dari hari istimewa.
+        Kadang, momen paling sederhana justru yang paling ingin kita ingat.
+      </p>
+
+    </section>
+
+
+    <!-- GALERI FOTO KENANGAN -->
+    <section class="memories section-wrap" id="memories">
+
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">album foto</span>
+          <h2>Momen <em>favorit</em> kita</h2>
+        </div>
+
+        <span class="little-label">
+          klik foto untuk melihat lebih dekat ♡
+        </span>
+      </div>
+
+
+      <div class="photo-grid">
+
+        <!-- FOTO 1 -->
+        <article class="memory-card tilt-left">
+          <div class="polaroid">
+
+            <div class="photo-placeholder photo-tall" data-photo="memory1">
+              <span class="photo-hint">Foto kenangan 01</span>
+              <img src="assets/foto7.jpeg" alt="First date">
+            </div>
+
+            <p class="photo-caption">first date ♡</p>
+          </div>
+
+          <span class="card-date">bab pertama kita</span>
+        </article>
+
+
+        <!-- FOTO 2 -->
+        <article class="memory-card tilt-right offset">
+          <div class="polaroid">
+
+            <div class="photo-placeholder photo-square" data-photo="memory2">
+              <span class="photo-hint">Foto kenangan 02</span>
+              <img src="assets/foto6.jpeg" alt="Mixue date">
+            </div>
+
+            <p class="photo-caption">mixue date</p>
+          </div>
+
+          <span class="card-date">hari yang indah</span>
+        </article>
+
+
+        <!-- FOTO 3 -->
+        <article class="memory-card tilt-right">
+          <div class="polaroid">
+
+            <div class="photo-placeholder photo-square" data-photo="memory3">
+              <span class="photo-hint">Foto kenangan 03</span>
+              <img src="assets/foto5.jpeg" alt="Monumen date">
+            </div>
+
+            <p class="photo-caption">monumen date</p>
+          </div>
+
+          <span class="card-date">pergi bersama</span>
+        </article>
+
+
+        <!-- FOTO 4 -->
+        <article class="memory-card tilt-left offset">
+          <div class="polaroid">
+
+            <div class="photo-placeholder photo-tall" data-photo="memory4">
+              <span class="photo-hint">Foto kenangan 04</span>
+              <img src="assets/foto4.jpeg" alt="Swimming date">
+            </div>
+
+            <p class="photo-caption">swimming date</p>
+          </div>
+
+          <span class="card-date">kenangan untuk disimpan</span>
+        </article>
+
+
+        <!-- FOTO 5 -->
+        <article class="memory-card tilt-left">
+          <div class="polaroid">
+
+            <div class="photo-placeholder photo-square" data-photo="memory5">
+              <span class="photo-hint">Foto kenangan 05</span>
+              <img src="assets/foto1.jpeg" alt="Foto senyuman">
+            </div>
+
+            <p class="photo-caption">senyummu yang kusuka</p>
+          </div>
+
+          <span class="card-date">pemandangan favoritku</span>
+        </article>
+
+
+        <!-- FOTO 6 -->
+        <article class="memory-card tilt-right offset">
+          <div class="polaroid">
+
+            <div class="photo-placeholder photo-square" data-photo="memory6">
+              <span class="photo-hint">Foto kenangan 06</span>
+              <img src="assets/foto8.jpeg" alt="Foto kenangan lainnya">
+            </div>
+
+            <p class="photo-caption">dan masih banyak lagi ♡</p>
+          </div>
+
+          <span class="card-date">cerita kita berlanjut</span>
+        </article>
+
+      </div>
+
+      <p class="grid-note">✦ Setiap foto menyimpan cerita yang tidak akan terlupakan ♡</p>
+
+      <!-- FOTO MINI KENANGAN -->
+      <div class="mini-gallery-section">
+        <span class="section-kicker">potongan cerita lainnya</span>
+        <h2>Little Moments <em>Together</em></h2>
+        <p class="mini-gallery-desc">
+          Masih banyak kenangan kecil yang ingin kusimpan bersamamu ♡
+        </p>
+
+        <div class="mini-photo-grid">
+
+          <div class="mini-photo photo-placeholder" data-photo="bareng1">
+            <span class="photo-hint">♡</span>
+            <img alt="Foto kenangan bersama 1">
+          </div>
+
+          <div class="mini-photo photo-placeholder" data-photo="bareng2">
+            <span class="photo-hint">♡</span>
+            <img alt="Foto kenangan bersama 2">
+          </div>
+
+          <div class="mini-photo photo-placeholder" data-photo="bareng3">
+            <span class="photo-hint">♡</span>
+            <img alt="Foto kenangan bersama 3">
+          </div>
+
+          <div class="mini-photo photo-placeholder" data-photo="bareng4">
+            <span class="photo-hint">♡</span>
+            <img alt="Foto kenangan bersama 4">
+          </div>
+
+          <div class="mini-photo photo-placeholder" data-photo="bareng5">
+            <span class="photo-hint">♡</span>
+            <img alt="Foto kenangan bersama 5">
+          </div>
+
+          <div class="mini-photo photo-placeholder" data-photo="bareng6">
+            <span class="photo-hint">♡</span>
+            <img alt="Foto kenangan bersama 6">
+          </div>
+
+          <div class="mini-photo photo-placeholder" data-photo="bareng7">
+            <span class="photo-hint">♡</span>
+            <img alt="Foto kenangan bersama 7">
+          </div>
+
+        </div>
+        <p class="mini-gallery-note">and our story goes on... ♡</p>
+      </div>
+    </section>
+
+
+
+   
+<!-- TIMELINE CERITA -->
+<section class="timeline-section" id="timeline">
+
+  <div class="section-wrap">
+
+    <span class="section-kicker">
+      our journey, our memories ♡
+    </span>
+
+    <h2>
+      A Story I Never<br>
+      <em>Thought Would Happen</em>
+    </h2>
+
+    <p class="timeline-subtitle">
+      For the boy who was once my little crush. ♡
+    </p>
+
+    <div class="timeline">
+
+      <!-- CERITA 1 -->
+      <article class="timeline-item">
+
+        <span class="timeline-dot">♡</span>
+
+        <div class="timeline-date">01 · THE BEGINNING</div>
+
+        <h3>It All Started in Junior High School</h3>
+
+        <p>
+          Semuanya berawal dari masa SMP. Ada seseorang yang diam-diam aku kagumi sejak kelas 7. Bukan karena aku punya niat untuk menjadikannya pacar, apalagi berharap suatu hari kami akan bersama. Aku hanya suka melihatnya, mengaguminya dari jauh, dan menyimpan perasaan kecil itu sendirian sampai akhirnya lulus SMP.
+        </p>
+
+        <p>
+          Lucunya, setelah masuk SMK, hidupku berjalan seperti biasa. Aku mulai mengenal beberapa orang, dekat dengan beberapa laki-laki, dan perlahan menjalani hari-hariku sendiri. Sampai suatu hari, tanpa sengaja aku berpapasan dengannya di halte bus.
+        </p>
+
+        <p>
+          Pertemuan singkat itu tiba-tiba mengingatkanku pada seseorang yang pernah aku sukai. Aku sempat berpikir, "Ah, nggak mungkin juga bisa dekat sama dia. Sekolah kami saja sudah berbeda."
+        </p>
+
+        <p>
+          Aku bahkan nggak pernah membayangkan kalau suatu hari nanti cerita kami akan sampai sejauh ini.
+        </p>
+
+      </article>
+
+
+      <!-- CERITA 2 -->
+      <article class="timeline-item">
+
+        <span class="timeline-dot">✦</span>
+
+        <div class="timeline-date">02 · THE UNEXPECTED MESSAGE</div>
+
+        <h3>The Unexpected Message</h3>
+
+        <p>
+          Sampai akhirnya, setelah aku lulus SMK, sesuatu yang nggak pernah aku duga terjadi. Dia tiba-tiba menghubungiku.
+        </p>
+
+        <p>
+          Jujur, aku speechless. Bayangkan, seseorang yang dulu hanya bisa aku kagumi diam-diam, sekarang justru menjadi orang yang mengirimiku pesan.
+        </p>
+
+        <p>
+          Dari obrolan sederhana, kami mulai sering bermain Roblox bersama, lanjut Discord, saling bercerita, bahkan menghabiskan waktu sampai larut malam. Hampir setiap hari ada saja hal yang kami bicarakan. Sampai-sampai aku pernah dimarahi karena terlalu sering begadang. Tapi waktu itu rasanya bodo amat, karena ada seseorang yang membuat malam-malamku terasa lebih menyenangkan.
+        </p>
+
+        <p>
+          Sampai suatu hari, dia mengungkapkan perasaannya.
+        </p>
+
+        <p>
+          Dan tanpa perlu berpikir panjang, aku menerimanya dengan bahagia.
+        </p>
+
+        <p>
+          Siapa sangka, seseorang yang dulu hanya menjadi crush masa SMP ternyata benar-benar menjadi pacarku?
+        </p>
+
+        <p>
+          Rasanya seperti salah satu angan-angan kecil yang tiba-tiba menjadi nyata.
+        </p>
+
+      </article>
+
+
+      <!-- CERITA 3 -->
+      <article class="timeline-item">
+
+        <span class="timeline-dot">♡</span>
+
+        <div class="timeline-date">03 · GETTING TO KNOW EACH OTHER</div>
+
+        <h3>Getting to Know the Real Us</h3>
+
+        <p>
+          Seiring berjalannya waktu, kami mulai mengenal satu sama lain lebih dalam. Bukan cuma sisi baik, tetapi juga sisi yang mungkin nggak selalu menyenangkan untuk dilihat.
+        </p>
+
+        <p>
+          Ada saatnya dia kecewa dengan sisi burukku. Ada juga saatnya aku menemukan hal-hal dari dirinya yang nggak selalu sesuai dengan bayanganku. Tapi kami pernah melewati semuanya. Kami belajar menerima, saling memaafkan, dan tetap memilih untuk bersama.
+        </p>
+
+        <p>
+          Aku tahu, aku bukan perempuan yang selalu mudah dimengerti. Emosiku terkadang berubah-ubah, terkadang terlalu banyak berpikir, dan terkadang sulit mengendalikan perasaan sendiri.
+        </p>
+
+        <p>
+          Tapi mungkin dia nggak pernah benar-benar tahu bahwa di balik semua itu, aku juga sedang belajar.
+        </p>
+
+        <p>
+          Belajar memahami dirinya, belajar menjadi pasangan yang lebih baik, belajar membuka hati, dan belajar menunjukkan rasa sayang dengan cara yang sebelumnya belum pernah aku lakukan.
+        </p>
+
+        <p>
+          Dia adalah orang pertama yang membuatku berani memanggil seseorang dengan sebutan "sayang", berani bersikap manja, dan ingin melibatkan seseorang dalam hampir seluruh bagian kehidupanku.
+        </p>
+
+        <p>
+          Aku mungkin belum sempurna, tapi perasaanku selalu sungguh-sungguh.
+        </p>
+
+      </article>
+
+
+      <!-- CERITA 4 -->
+      <article class="timeline-item">
+
+        <span class="timeline-dot">♡</span>
+
+        <div class="timeline-date">04 · THE NIGHT I WILL NEVER FORGET</div>
+
+        <h3>The Night I Will Never Forget</h3>
+
+        <p>
+          Tentu saja, perjalanan kami nggak selalu dipenuhi tawa.
+        </p>
+
+        <p>
+          Ada satu malam yang sampai sekarang masih tersimpan jelas di ingatanku.
+        </p>
+
+        <p>
+          <strong>7 Mei 2026, pukul 22.54.</strong>
+        </p>
+
+        <p>
+          Malam itu, semuanya terasa berubah begitu cepat. Aku sedang bercerita seperti biasanya, sampai tiba-tiba dia mengatakan ingin break.
+        </p>
+
+        <p>
+          Aku terdiam.
+        </p>
+
+        <p>
+          Rasanya seperti disambar petir. Tanganku gemetar, tubuhku terasa berbeda, dan air mataku jatuh begitu saja. Aku nggak tahu harus menjawab apa. Aku hanya bisa menangis sambil mencoba memahami apa yang baru saja kudengar.
+        </p>
+
+        <p>
+          Hubungan yang sebentar lagi akan mencapai satu tahun, yang selama ini aku pikir masih akan terus berjalan, ternyata bisa sampai di titik seperti itu.
+        </p>
+
+        <p>
+          Aku tahu kami sama-sama punya kesibukan. Aku dengan kuliahku, dia dengan pekerjaannya. Kami sama-sama lelah setelah menjalani hari masing-masing. Tapi jauh di dalam hati, aku masih ingin punya sedikit waktu untuk saling bercerita, mendengar hal-hal kecil tentang hari kami, dan merasa bahwa kami masih menjadi bagian penting dalam kehidupan satu sama lain.
+        </p>
+
+        <p>
+          Kami akhirnya kembali membaik. Namun, beberapa bulan kemudian, ada lagi hal-hal yang membuatku sedih. Bahkan ketika aku sendiri sempat meminta break, jawabannya justru membuatku semakin terluka.
+        </p>
+
+        <p>
+          Sampai akhirnya, permintaan untuk berpisah itu datang lagi.
+        </p>
+
+        <p>
+          Kali ini aku mencoba mengiyakan, meskipun sebenarnya hatiku belum siap. Aku masih memohon, masih berharap, bahkan rela meminta satu kesempatan untuk bertemu dan berbicara secara langsung.
+        </p>
+
+        <p>
+          Dan ketika akhirnya kami bertemu, perasaan yang selama ini berantakan terasa sedikit lebih tenang. Dia mengatakan nggak ingin break ataupun putus.
+        </p>
+
+        <p>
+          Aku pun masih ingin bersamanya.
+        </p>
+
+        <p>
+          Mungkin karena itulah, sampai sekarang aku masih mengingat semua kejadian itu dengan begitu jelas. Bukan karena aku ingin terus mengingat rasa sakitnya, tetapi karena malam-malam itu menjadi bagian dari perjalanan yang pernah kami lalui.
+        </p>
+
+      </article>
+
+
+      <!-- CERITA 5 -->
+      <article class="timeline-item">
+
+        <span class="timeline-dot">✦</span>
+
+        <div class="timeline-date">05 · STILL LEARNING</div>
+
+        <h3>I'm Still Learning to Love You Better</h3>
+
+        <p>
+          Aku nggak menulis semua ini untuk menyalahkanmu. Aku juga nggak sedang berusaha membela diriku sendiri.
+        </p>
+
+        <p>
+          Aku tahu kamu punya lelahmu sendiri. Aku tahu mungkin ada saat-saat ketika sikapku membuatmu merasa sulit untuk memahami aku. Dan aku sadar, mencintai seseorang juga berarti belajar memahami hal-hal yang sebelumnya nggak kita mengerti.
+        </p>
+
+        <p>
+          Aku sedang berusaha memperbaiki diriku. Mengurangi kebiasaan overthinking, belajar mengendalikan emosi, nggak selalu menuruti suasana hati, dan mencoba melihat sesuatu dari sudut pandangmu.
+        </p>
+
+        <p>
+          Tapi kalau boleh jujur, terkadang aku masih merindukan hal-hal kecil dari kita yang dulu.
+        </p>
+
+        <p>
+          Aku rindu ketika kita punya banyak cerita untuk dibagikan. Ketika bermain bersama terasa menyenangkan, ketika obrolan sederhana bisa berlangsung sampai malam, dan ketika aku nggak perlu menunggu terlalu lama hanya untuk mendapatkan sedikit waktumu.
+        </p>
+
+        <p>
+          Aku nggak meminta kita kembali menjadi dua orang yang sama seperti dulu. Aku hanya berharap kita nggak kehilangan keinginan untuk terus mengenal satu sama lain.
+        </p>
+
+        <p>
+          Aku ingin kita sama-sama bertumbuh, bukan saling merasa sendirian dalam hubungan ini.
+        </p>
+
+      </article>
+
+
+      <!-- CERITA 6 -->
+      <article class="timeline-item">
+
+        <span class="timeline-dot">♡</span>
+
+        <div class="timeline-date">06 · MY FAVORITE PART OF LIFE</div>
+
+        <h3>My Favorite Part of Life</h3>
+
+        <p>
+          Terlepas dari semua yang pernah terjadi, aku tetap bersyukur pernah dipertemukan denganmu.
+        </p>
+
+        <p>
+          Kamu bukan hanya seseorang yang pernah menjadi crush-ku sejak SMP. Kamu juga menjadi orang pertama dalam banyak hal di hidupku. Banyak pengalaman yang sebelumnya belum pernah aku rasakan, akhirnya bisa aku lalui bersamamu.
+        </p>
+
+        <p>
+          Ada banyak kenangan kecil yang mungkin terlihat biasa saja bagi orang lain, tetapi punya tempat tersendiri di hatiku.
+        </p>
+
+        <p>
+          Bermain Roblox, mengobrol lewat Discord, tertawa karena hal-hal nggak penting, menghabiskan malam bersama, sampai pertemuan-pertemuan yang selalu ingin aku ingat.
+        </p>
+
+        <p>
+          Hal-hal sederhana itu ternyata bisa menjadi sesuatu yang begitu berharga ketika dilakukan bersama orang yang kita sayangi.
+        </p>
+
+        <p>
+          Aku nggak tahu bagaimana cerita ini akan berakhir. Aku juga nggak tahu akan seperti apa kita beberapa tahun ke depan.
+        </p>
+
+        <p>
+          Tapi satu hal yang aku tahu, bertemu denganmu adalah salah satu bagian paling menyenangkan dalam hidupku.
+        </p>
+
+        <p>
+          Dulu aku hanya seorang anak SMP yang mengagumi seseorang dari kejauhan tanpa pernah membayangkan akan memilikinya sebagai bagian dari cerita hidupku.
+        </p>
+
+        <p>
+          Dan sekarang, aku punya begitu banyak kenangan bersamamu untuk dikenang.
+        </p>
+
+        <p>
+          Terima kasih sudah pernah hadir, sudah menjadi bagian dari hari-hariku, sudah mengenalkanku pada banyak pengalaman pertama, dan sudah menjadi seseorang yang begitu berarti bagiku.
+        </p>
+
+        <p>
+          Kalau suatu hari nanti kita mengingat kembali perjalanan ini, aku harap kita bisa tersenyum dan mengingat bahwa pernah ada dua orang yang saling menemukan, saling belajar, dan punya begitu banyak cerita untuk dikenang.
+        </p>
+
+        <p>
+          <em>
+            You were once just a boy I admired from afar, but somehow, you became someone I got to love this close.
+          </em>
+        </p>
+
+        <p>
+          And honestly, I'm so grateful that our paths crossed.
+        </p>
+
+        <p>
+          <em>With all my love,<br>
+          from the girl who once had a little crush on you. ♡</em>
+        </p>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+    <!-- SURAT CINTA -->
+    <section class="letter-section section-wrap" id="letter">
+
+      <div class="letter-card">
+
+        <span class="letter-stamp">
+          surat<br>
+          cinta ♡
+        </span>
+
+        <span class="section-kicker">
+          sebuah pesan kecil untukmu
+        </span>
+
+        <h2>
+          Untuk <em>orang favoritku,</em>
+        </h2>
+
+        <p class="letter-body">
+          Terima kasih untuk setiap canda, tawa, luka, petualangan kecil,
+          dan hari biasa yang terasa istimewa karena ada kamu.
+          Foto-foto dan cerita ini hanya sebagian kecil dari kenangan yang telah kita buat.
+          Bagian paling kusuka adalah mengetahui bahwa masih akan ada banyak
+          momen indah yang sedang menunggu kita.
+        </p>
+
+        <p class="letter-end">
+          Love you sayangku cintaku duniaku gantengku suamiku ♡
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- PENUTUP -->
+    <section class="closing">
+
+      <div class="closing-heart">♡</div>
+
+      <p>
+        Terima Kasih sudah menjadi bagian dari perjalanan ini
+      </p>
+
+      <h2>
+        Semoga, <em>masih banyak cerita kita setelah ini.</em>
+      </h2>
+
+      <span class="closing-sparkle">
+        ✦ &nbsp; ✧ &nbsp; ♡ &nbsp; ✧ &nbsp; ✦
+      </span>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+    from my little heart ♡
+  </footer>
+
+
+  <!-- MUSIK BACKGROUND -->
+  <audio id="backgroundMusic" loop>
+    <source src="assets/music.mp3" type="audio/mpeg">
+</audio>
+
+
+  <!-- TAMPILAN FOTO BESAR -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+
+    <button class="lightbox-close" id="lightboxClose" aria-label="Tutup foto">
+      ×
+    </button>
+
+    <img id="lightboxImage" alt="Foto kenangan ukuran besar">
+
+    <p id="lightboxCaption"></p>
+
+  </div>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
